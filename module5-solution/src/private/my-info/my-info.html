@@ -7,6 +7,8 @@
         <p>Phone number: {{ myInfoCtrl.user.phone }}</p>
         <p>Favourite menu: {{ myInfoCtrl.user.menu }}</p>
         <p>Favourite dish: {{ myInfoCtrl.user.favourite }}</p>
+        <p>Description: {{ myInfoCtrl.description }} </p>
+        <p><img src="{{ myInfoCtrl.image }}" /></p>
     </div>
 
     <div ng-if="!myInfoCtrl.user.firstName">
